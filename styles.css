@@ -353,7 +353,13 @@ footer ul a:hover {
     display: grid;
     place-items: center;
 }
-.empty__page {
+.about {
+    height: 70vh;
+    display: grid;
+    text-align: center;
+    place-content: center;
+}
+.contacts {
     height: 70vh;
     display: grid;
     text-align: center;
