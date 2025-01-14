@@ -41,7 +41,7 @@ body {
     line-height: 1.6;
     color: var(--color-gray-200);
     overflow-x: hidden;
-    background: var(--color-bg);
+    background: var(--color-gray-900);
     font-size: 0.9rem;
 }
 
@@ -344,6 +344,20 @@ footer ul a:hover {
 .singlepost__container p {
     margin-top: 1rem ;
     line-height: 1.7rem;
+}
+
+.category__title {
+    height: 15rem;
+    margin-top: 4.5rem;
+    background: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+}
+.empty__page {
+    height: 70vh;
+    display: grid;
+    text-align: center;
+    place-content: center;
 }
     /*======Media====*/
 
