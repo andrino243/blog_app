@@ -41,7 +41,7 @@ body {
     line-height: 1.6;
     color: var(--color-gray-200);
     overflow-x: hidden;
-    background: var(--color-gray-900);
+    background: var(--color-bg);
     font-size: 0.9rem;
 }
 
@@ -77,9 +77,11 @@ h3{
 }
 
 h4{
-    font-size: 1rem;
+    font-size: 1.7rem;
 }
-
+h5{
+    font-size: 3rem;
+}
 a {
     color: var(--color-white);
     transition: var(--transition);
@@ -328,6 +330,18 @@ footer ul a:hover {
     color: var(--color-white);
 }
 
+.btn.sm {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+}
+.btn.danger{
+    background: var(--color-red);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color:var(--color-bg);
+}
 /*post*/
 
 .singlepost {
@@ -422,6 +436,8 @@ input, textarea, select {
 .form__section small a {
     color: var(--color-primary);
 }
+
+/*====DASHEBOARD=======*/
     /*======Media====*/
 
 @media screen and (max-width: 1024px) {
@@ -523,6 +539,25 @@ input, textarea, select {
     .singlepost{
         margin-top: 6rem;
     }
+
+    /*=======FOOTER======*/
+    .footer__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer__container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__container p, 
+    .footer__container a {
+        font-size: 0.9rem;
+    }
     /* Voir a 2h06 minutes
         .nav__items li{
         animation: animateDropdown 4ms 0s ease forwards;
@@ -578,4 +613,23 @@ input, textarea, select {
             background-color: transparent;
             padding: 0;
         }
+    }
+
+    /*=======FOOTER======*/
+    .footer__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer__container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__container p, 
+    .footer__container a {
+        font-size: 0.9rem;
     }
