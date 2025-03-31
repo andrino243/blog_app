@@ -389,9 +389,10 @@ footer ul a:hover {
     color: var(--color-red);
     padding: 0.8rem 1.4rem;
 }
-.alert__message.success{
+.alert__message.success p {
     background: var(--color-green-light) ;
-    color:var(--color-white);
+    color:var(--color-green);
+    padding: 0.8rem 1.4rem;
 }
 form {
     display: flex;
