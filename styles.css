@@ -403,6 +403,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    align-items: left ;
 }
 input, textarea, select {
     padding: 0.8rem 1.4rem;
